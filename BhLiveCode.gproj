@@ -1,0 +1,34 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="2" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="1024" logicalWidth="768" retinaDisplay="0" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales/>
+ </properties>
+ <folder name="Fonts"/>
+ <folder name="Images">
+  <file source="Images/Art/Center.png"/>
+  <file source="Images/Art/RestartButtonOn.png"/>
+  <file source="Images/Art/RestartButtonOff.png"/>
+  <file source="Images/Art/SecondHand.png"/>
+  <file source="Images/Art/MinuteHand.png"/>
+  <file source="Images/Art/HourHand.png"/>
+  <file source="Images/Art/ClockFace.png"/>
+  <file source="Images/Art/ZeroBrane.png"/>
+  <file source="Images/Art/Gideros.png"/>
+  <file source="Images/Art/Bowerhaus.png"/>
+ </folder>
+ <folder name="Library">
+  <file source="../BhButton/BhButton.lua"/>
+  <file source="../BhHelpers/BhHelpers.lua"/>
+  <file source="../../Misc/gtween.lua"/>
+  <file source="../../Misc/easing.lua"/>
+  <file source="../../AppCodingEasy/GiderosInit/init.lua"/>
+ </folder>
+ <file source="Clock.lua"/>
+ <file source="Face.lua"/>
+ <file source="Livepad.lua"/>
+ <file source="Mechanism.lua"/>
+ <file source="../../Misc/Tahoma.ttf"/>
+ <file source="main.lua"/>
+ <file source="../../../../Tools/ZeroBraneStudio/lualibs/mobdebug/mobdebug.lua"/>
+ <file source="../../../../../../../../Applications/Gideros Studio/All Plugins/LuaSocket/source/socket.lua"/>
+ <dependency from="Livepad.lua" to="main.lua"/>
+</project>
